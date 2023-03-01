@@ -12,8 +12,8 @@ sudo systemctl enable apache2
 fi
 echo "Tar file creating"
 date_time=$(date '+%d%m%Y-%H%M%S')
-myname='darshan'
-s3_bucket='upgard-darshan09'
+myname='James'
+s3_bucket='james-upgrad'
 
 tar cvzf ${myname}-httpd-logs-${date_time}.tar 
 
